@@ -1,0 +1,59 @@
+[gd_scene load_steps=12 format=3 uid="uid://dfxduine17xi5"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_kuotf"]
+[ext_resource type="AudioStream" uid="uid://dwflg1c75vteq" path="res://086293_error-3-36045.mp3" id="2_lejej"]
+[ext_resource type="AudioStream" uid="uid://bqld1aoueydwm" path="res://bass-rvb-6-107514.mp3" id="3_s5vdl"]
+[ext_resource type="AudioStream" uid="uid://ddxmmivx0omgw" path="res://bass-ui-298402.mp3" id="4_mjdbi"]
+[ext_resource type="AudioStream" uid="uid://edn5f0mqwapg" path="res://lead-or-mg-44123.mp3" id="5_mromf"]
+[ext_resource type="AudioStream" uid="uid://cg5wfoar4wb0i" path="res://synth-shot-fx-by-alien-i-trust-1-245408.mp3" id="6_hpivf"]
+[ext_resource type="AudioStream" uid="uid://d6d0lvnbv8g5" path="res://synth-shot-fx-by-alien-i-trust-6-245431.mp3" id="7_xgvd7"]
+[ext_resource type="AudioStream" uid="uid://cnj5trevi10w" path="res://synth-shot-fx-by-alien-i-trust-11-245436.mp3" id="8_r0gtl"]
+[ext_resource type="AudioStream" uid="uid://bfikqpdolhh8s" path="res://voice-001-81010.mp3" id="9_5hu1r"]
+[ext_resource type="AudioStream" uid="uid://dmgfawb8h80u7" path="res://synth-cowbell-high-169970.mp3" id="10_rmncq"]
+[ext_resource type="AudioStream" uid="uid://df65uxfilqufb" path="res://synth-stab-91612.mp3" id="11_oxcge"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_kuotf")
+
+[node name="086293Error-3-36045" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1284, 1057)
+stream = ExtResource("2_lejej")
+
+[node name="Bass-rvb-6-107514" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(896, 1425)
+stream = ExtResource("3_s5vdl")
+
+[node name="Bass-ui-298402" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(500, 1961)
+stream = ExtResource("4_mjdbi")
+
+[node name="Lead-or-mg-44123" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1392, 1405)
+stream = ExtResource("5_mromf")
+
+[node name="Synth-shot-fx-by-alien-i-trust-1-245408" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1196, 725)
+stream = ExtResource("6_hpivf")
+volume_db = 7.924
+
+[node name="Synth-shot-fx-by-alien-i-trust-6-245431" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(488, 993)
+stream = ExtResource("7_xgvd7")
+volume_db = 13.867
+
+[node name="Synth-shot-fx-by-alien-i-trust-11-245436" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(488, 1441)
+stream = ExtResource("8_r0gtl")
+volume_db = 10.896
+
+[node name="Voice-001-81010" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(368, 1501)
+stream = ExtResource("9_5hu1r")
+
+[node name="Synth-cowbell-high-169970" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(820, 1021)
+stream = ExtResource("10_rmncq")
+
+[node name="Synth-stab-91612" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(888, 1449)
+stream = ExtResource("11_oxcge")
